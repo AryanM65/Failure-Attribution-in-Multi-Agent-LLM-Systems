@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite it as below."
+title: "Failure attribution in LLM-based multi-agent systems: an audit of AEGIS-Bench and transfer to natural failures"
+type: software
+authors:
+  - family-names: Mahajan
+    given-names: Aryan
+    email: aryan.mahajan.ug23@nsut.ac.in
+    affiliation: "Netaji Subhas University of Technology, New Delhi, India"
+  - family-names: Kumar
+    given-names: Yogesh
+    email: yogesh.kumar.ug23@nsut.ac.in
+    affiliation: "Netaji Subhas University of Technology, New Delhi, India"
+  - family-names: Yadav
+    given-names: Shubham
+    email: shubham.yadav.ug23@nsut.ac.in
+    affiliation: "Netaji Subhas University of Technology, New Delhi, India"
+  - family-names: Yadav
+    given-names: Savita
+    email: savita.yadav@nsut.ac.in
+    affiliation: "Netaji Subhas University of Technology, New Delhi, India"
+repository-code: "https://github.com/AryanM65/Failure-Attribution-in-Multi-Agent-LLM-Systems"
+license: MIT
