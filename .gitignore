@@ -83,3 +83,8 @@ paper/*
 aegis/results/rr/cand_*.jsonl
 aegis/results/rr_k12/cand_*.jsonl
 aegis/results/rr/smoke/cand_*.jsonl
+
+# Exception: the three probability dumps read by robustness_stats, cluster_bootstrap, name_audit and shift_paired
+!aegis/results/rr/dump_s4_dedup.npz
+!aegis/results/rr/dump_rr_base.npz
+!aegis/results/rr/dump_rr_paper.npz
