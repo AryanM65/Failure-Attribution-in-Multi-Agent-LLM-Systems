@@ -54,3 +54,16 @@ aegis/third_party/
 
 # S4 fine-tuned vectors (163 MB per encoder, kept on local disk and on Kaggle; logs are committed)
 aegis/results/kaggle_logs/s4_s*/ft_shards/
+
+# Paper / LaTeX -- kept local only, not published to GitHub
+paper/*.tex
+paper/*.pdf
+paper/*.bib
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
