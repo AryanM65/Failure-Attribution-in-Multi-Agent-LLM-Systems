@@ -62,8 +62,6 @@ model/
 dataset/
 docs/
 local-notes/
-aegis/docs/
-aegis/results/
 /context.md
 /current-progress.md
 /dcl.md
