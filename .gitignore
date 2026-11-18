@@ -77,3 +77,9 @@ paper/flatten.py
 paper/*
 !paper/Failure_attribution_AEGIS-Bench_audit.pdf
 !paper/Cover_letter.pdf
+
+# Not published: fine-tuned vectors / probability dumps (regenerable) and candidate dumps (raw benchmark text)
+*.npz
+aegis/results/rr/cand_*.jsonl
+aegis/results/rr_k12/cand_*.jsonl
+aegis/results/rr/smoke/cand_*.jsonl
