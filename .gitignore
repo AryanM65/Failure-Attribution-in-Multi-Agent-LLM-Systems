@@ -74,3 +74,8 @@ aegis/results/
 paper/paper_single.*
 paper/flatten.py
 .claude/
+
+# paper/ publishes only the two PDFs (manuscript and cover letter)
+paper/*
+!paper/Failure_attribution_AEGIS-Bench_audit.pdf
+!paper/Cover_letter.pdf
