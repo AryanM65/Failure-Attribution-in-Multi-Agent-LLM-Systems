@@ -1,5 +1,5 @@
 """Build paper/paper_single.tex: main.tex with every \\input{...} replaced by the file's contents (recursively), so the whole paper is one .tex file.
-Run after make_tables.py:   python3 paper/make_tables.py && python3 paper/flatten.py   (then: tectonic paper_single.tex inside paper/)"""
+Regenerate tables first, then run: python3 flatten.py   (then: tectonic paper_single.tex inside paper/)"""
 import re
 from pathlib import Path
 D = Path(__file__).resolve().parent
